@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal+Mania&family=Orbitron:wght@400..900&family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal+Mania&family=Orbitron:wght@400..900&family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal+Mania&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal+Mania&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --qora: black;
+    --kukimtilroq: #57B8FF;
+    --oq: white;
+}
+
+.container01 {
+    width: 1320px;
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    width: 1320px;
+    height: 62px;
+    background: linear-gradient(to right, black 50%, var(--kukimtilroq) 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boshidan-ikktasi {
+    display: flex;
+}
+
+.header-urtasi {
+    display: flex;
+    gap: 50px;
+}
+
+.header-urtasi a {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--oq);
+    font-family: Orbitron;
+}
+
+.header-urtasi a:hover {
+    color: #FAC422;
+}
+
+.kuk-qism,
+.qora-qism {
+    flex: 1;
+}
+
+.qora-qism {
+    height: 990px;
+    background-color: var(--qora);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kuk-qism {
+    height: 990px;
+    background-color: var(--kukimtilroq);
+}
+
+
+
+.header-oxiri {
+    display: flex;
+    align-items: center;
+}
+
+.birinchi-tepadagi-button {
+    width: 178px;
+    height: 62px;
+    border: 2px solid var(--oq);
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Orbitron;
+}
+
+.birinchi-tepadagi-button p {
+    font-size: 18px;
+    color: var(--oq);
+    font-family: Orbitron;
+    font-family: Orbitron;
+}
+
+.birinchi-ekonka {
+    width: 59px;
+    height: 100%;
+    color: white;
+}
+
+.ikkinchisi-bunda-rasim-header {
+    margin-top: 231px;
+    width: 600px;
+    height: 528px;
+    color: white;
+}
+
+.elmit-birinchisi {
+    margin-top: 231px;
+    width: 600px;
+    height: 528px;
+    color: white;
+}
+
+
+.uyinchiq-rasmi-irinchidagisi {
+    width: 100%;
+    height: 100%;
+}
+
+.boshidagisi-olovcha {
+    display: flex;
+    gap: 5px;
+}
+
+.boshidagisi-olovcha p {
+    color: #57B8FF;
+    display: flex;
+    align-items: center;
+    font-family: Orbitron;
+    margin-bottom: 10px;
+}
+
+.ikkinchi-yozuv-tagida-rasimi-bor {
+    display: flex;
+    flex-direction: column;
+}
+
+.ikkinchi-yozuv-tagida-rasimi-bor p {
+    font-size: 65px;
+    color: var(--oq);
+    font-family: Orbitron;
+}
+
+.tayoqch-img {
+    position: relative;
+    width: 430px;
+    height: 11.93px;
+    bottom: 90px;
+    left: 210px;
+}
+
+.kichikroq-yozuvcha-qorasimon {
+    width: 615px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kichikroq-yozuvcha-qorasimon p {
+    font-size: 18px;
+    font-family: Orbitron;
+    color: #999999;
+}
+
+.birinchi-bullimdagi-tugmacha-va-text {
+    display: flex;
+    height: 70px;
+    width: 406px;
+}
+
+.tugmacha-text-yonidagi-boshidag {
+    flex: 1;
+    height: 100%;
+    background-color: #57B8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.tugmacha-text-yonidagi-boshidag:hover {
+    background-color: red;
+}
+
+.tugmacha-text-yonidagi-boshidag p {
+    font-size: 18px;
+    font-family: Orbitron;
+    color: var(--oq);
+    transition: 0.3s ease;
+}
+
+.tugmacha-text-yonidagi-boshidag:hover p {
+    font-size: 22px;
+
+}
+
+.buttonni-yonidagi-div {
+    flex: 1;
+    height: 100%;
+    background-color: #000000E0;
+    color: var(--oq);
+    font-family: Orbitron;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.buttonni-yonidagi-div:hover {
+    background-color: red;
+}
+
+.buttonni-yonidagi-div p {
+    transition: 0.3s ease;
+}
+
+.buttonni-yonidagi-div:hover p {
+    font-size: 22px;
+}
+
+
+/* 
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism 
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism
+ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism ikkinchi-qism */
+
+
+
+
+.ikkinxhi-bulim {
+    width: 1320px;
+    height: 542px;
+    background-color: #FDD04A;
+    margin: auto;
+}
+
+.container02 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+.bu-elimit-ikkinchisi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sariq-ichidagi-elimitlar-uchun {
+    width: 100%;
+    height: 282.42px;
+    margin-top: 140px;
+}
+
+.rasim-va-yozuv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rasim-va-yozuv p {
+    font-size: 48px;
+    font-family: Orbitron;
+}
+
+.bu-rasim-ikkinchi-tayozcha {
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+
+.textlar-bular-tasimni-tagidagi {
+    width: 576px;
+    height: 52px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textlar-bular-tasimni-tagidagi p {
+    font-size: 16px;
+    font-family: Orbitron;
+    color: #555555;
+}
+
+
+.qator6ta-elimit-lar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.elimintis {
+    width: 173px;
+    height: 89px;
+    border: 12px solid #FFFFFF59;
+    border-radius: 25px;
+    background-color: #FFFFFF4D;
+    cursor: pointer;
+    transition: border 0.2s, color 0.3s;
+
+}
+
+.elimintis:hover {
+    color: blue;
+    border: none;
+    border: 10px solid red;
+}
+
+.elimintis1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.yonidagi-suz p {
+    font-size: 35px;
+    font-family: "Indie Flower";
+}
+
+.elimintis2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.elimintis2 p {
+    font-size: 33px;
+    font-family: Nunito;
+}
+
+
+.elimintis3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elimintis3 i {
+    font-size: 30px;
+}
+
+.elimintis3 h3 {
+    font-size: 30px;
+}
+
+.elimintis4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.elimintis4 p {
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.elimintis5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.elimintis5 b {
+    font-size: 30px;
+}
+
+.elimintis6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.elimintis6 p {
+    font-size: 30px;
+}
+
+
+
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+/** .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim .uchunchi-bulim */
+
+
+.uchunchi-bulim {
+    max-width: 1320px;
+    background-image: url('./img/IMAGE\ \(1\).svg');
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+}
+
+.container03 {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 1000px;
+}
+
+.turit-burchakli-burchak {
+    width: 100%;
+    height: 812px;
+}
+
+
+.ichidagi-boshi-rasim-bor-qism {
+    width: 770px;
+    height: 291px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.boshidagi-emas-ikkonchi-olovcha {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.text-olovcha-yonida {
+    font-size: 16px;
+    color: #57B8FF;
+    font-family: Orbitron;
+}
+
+.ikkinchidagi-text-olov-pastidagi {
+    width: 716px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ikkinchidagi-text-olov-pastidagi p {
+    font-size: 55px;
+    font-family: Orbitron;
+    color: #FFFFFF;
+}
+
+.bundan-kigingisi-bu-olovchni-pastida {
+    width: 698px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bundan-kigingisi-bu-olovchni-pastida p {
+    font-family: Orbitron;
+    color: #DFDFDFCC;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.tuttasi-birda {
+    width: 100%;
+    height: 456px;
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.tuttasi-birda-ung,
+.tuttasi-birda-chpa {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.turit-burchkni-uchida-kivadirat {
+    width: 100%;
+    height: 212px;
+    border-radius: 20px;
+    background-color: #FFFFFF26;
+    padding: 35.42px;
+    cursor: pointer;
+    padding-left: 30px;
+
+}
+
+.all-bilan-boshlangan-textlar {
+    transition: 0.3s ease;
+}
+
+.turit-burchkni-uchida-kivadirat:hover .p-ichida-01>p {
+    font-size: 17px;
+    color: red;
+}
+
+.turit-burchkni-uchida-kivadirat .p-ichida-01 {
+    transition: all 0.2s ease;
+}
+
+.all-bilan-boshlangan-textlar {
+    transform: all 0.2s ease;
+}
+
+.birinchi-a1 {
+    display: flex;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.birinchi-a1:hover .all-bilan-boshlangan-textlar>p {
+    color: red;
+    font-size: 35px;
+}
+
+.all-di-yonidagi-img {
+    position: absolute;
+    display: flex;
+    align-items: start;
+
+}
+
+.all-bilan-boshlangan-textlar {
+    padding-left: 42px;
+}
+
+.all-bilan-boshlangan-textlar p {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: Orbitron;
+}
+
+
+.p-ichida-01 {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    transition: all 0.2s ease;
+}
+
+.p-ichida-01 p {
+    font-size: 16px;
+    color: #DFDFDFCC;
+    font-family: Orbitron;
+}
+
+
+
+.birinchi-a1 {
+    transform: 0.3s;
+    transition: border 0.1s ease, 0.3s ease;
+
+}
+
+.birinchi-a1:hover {
+    margin-top: -5px;
+    border: 3px solid red;
+}
+
+.all-bilan-boshlangan-textlar p {
+    transition: 0.3s ease;
+}
+
+.p-ichida-01 p {
+    transition: 0.3s ease;
+}
+
+.all-di-yonidagi-img {
+    transition: 0.3s ease;
+}
+
+.birinchi-a1:hover .all-di-yonidagi-img {
+    width: 40px;
+    height: 40px;
+}
+
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+/** tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim tuttinch-bulim  */
+
+
+.turtinchi-bulim {
+    max-width: 1320px;
+    width: 100%;
+    height: 732px;
+    background-color: #000000;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container04 {
+    max-width: 1200px;
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+}
+
+
+.uchunchi-olovcha-bor {
+    flex: 2;
+}
+
+.novushnikli-aka {
+    background-image: url('./img/IMAGE\ \(3\).svg');
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uchunchi-olovch-03 {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.uchunchi-olovch-03 p {
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 16px;
+}
+
+
+.suzlar-uchun-bu01 p {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: Orbitron;
+}
+
+
+.suzlar-uzchun-bu02 {
+    width: 721px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.suzlar-uzchun-bu02 p {
+    font-size: 19px;
+    color: #DFDFDFCC;
+    font-family: Orbitron;
+}
+
+.kuk-knopka {
+    width: 203px;
+    height: 70px;
+    background-color: #57B8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.kuk-knopka p {
+    font-size: 18px;
+    font-family: Orbitron;
+    transition: 0.3s ease-in-out;
+    color: #FFFFFF;
+}
+
+.kuk-knopka:hover {
+    background-color: red;
+}
+
+.kuk-knopka:hover p {
+    font-size: 22px;
+}
+
+
+
+
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+/** .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism .beshinchi-qism */
+
+.beshinchi-bulim {
+    display: flex;
+    max-width: 1320px;
+    width: 100%;
+    height: 732px;
+    margin: auto;
+    background-color: black;
+}
+
+.birinchisi {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.birinchisi p{
+    font-size: 45px;
+    font-family:Orbitron;
+    color: var(--oq);
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+
+.birinchisi:hover p{
+    font-size: 35px;
+    color: red;
+}
+
+.birinchisi:hover:hover{
+    cursor: move;
+}
+
+.birinchi-rasim .multik-rasimlar{
+    transition: 1s;
+    opacity: 1;
+}
+
+.birinchisi:hover .multik-rasimlar{
+    width: 155px;
+    height: 155px;
+}
+
+.birinchi-rasim {
+    background-image: url('./img/IMAGE\ \(5\).svg');
+    width: 100%;
+    height: 100%;
+}
+
+.ikkinchi-rasim {
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/IMAGE\ \(6\).svg');
+}
+
+
+.uchunchi-rasim {
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/IMAGE\ \(7\).svg');
+}
